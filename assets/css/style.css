@@ -1,0 +1,32 @@
+.bg-1 { 
+    background-color: #373e3d;
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d;
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff;
+    color: #555555;
+  }
+  .container-fluid {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .containerR {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    height: 30px;
+    background-color: #373e3d;
+    color: #ffffff;
+    padding-left: 70px;
+    padding-bottom:  50px;
+    }
+  
+
+  .form-check {
+    margin-bottom: 10px; /* Optional spacing between radio buttons */
+  }
