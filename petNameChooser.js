@@ -62,4 +62,3 @@ function generateMaleDogName() {
 //    function() {
 //       displayRadioValue(radio);
 //     });
-//   });
