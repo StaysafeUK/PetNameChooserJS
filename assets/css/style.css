@@ -1,5 +1,5 @@
 .bg-1 { 
-    background-color: #1abc9c;
+    background-color: #373e3d;
     color: #ffffff;
   }
   .bg-2 { 
@@ -11,6 +11,22 @@
     color: #555555;
   }
   .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .containerR {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    height: 30px;
+    background-color: #373e3d;
+    color: #ffffff;
+    padding-left: 70px;
+    padding-bottom:  50px;
+    }
+  
+
+  .form-check {
+    margin-bottom: 10px; /* Optional spacing between radio buttons */
   }
