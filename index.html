@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Dog Naame Chooser" />
+    <meta name="Description" content="Dog Name Chooser" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -18,43 +18,100 @@
         <h3>Pet Name Chooser</h3>
         <img src="/assets/images/twodogswithball.webp" class="img-circle" alt="two dogs playing with a ball" width="350"
             height="350">
-        <h3>Find a name for your new favourite friend</h3>
+        <h3>Find a name for your new favorite friend</h3>
     </div>
 
-    <div class="containerR radio-container">
-    <div class="form-check bg-1">
-        <input class="form-check-input" type="radio" name="DogRadio" id="MaleDogRadio" value="MaleDogRadio" checked>
-        <label class="form-check-label" for="DogRadio">
-          Male Dog
-        </label>
-      </div>
-      <div class="form-check bg-1">
-        <input class="form-check-input" type="radio" name="DogRadio" id="FemaleRadio" value="FemaleDogRadio">
-        <label class="form-check-label" for="DogRadio">
-          Female Dog
-        </label>
-        <br>
-        <input class="btn btn-primary" type="submit" value="Submit">
-    </div>
-</div>
+    <!DOCTYPE html>
+    <html lang="en">
 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pet Name Chooser</title>
+    </head>
+
+    <body>
+        <input type="radio" name="dogGender" value="MaleDogRadio"> Male
+        <input type="radio" name="dogGender" value="FemaleDogRadio"> Female
+        <button onclick="submitForm()">Submit</button>
+
+        <h4 id="h4"></h4>
+        <div id="result"></div>
+
+
+        <script>
+            function petNameChooser(gender) {
+                const maleDogsArray = ["Rex", "Rover", "Sunny", "Goldie", "Muncher", "Zeus", "Bruno", "Duke"];
+                const femaleDogsArray = ["Willow", "Sadie", "Issachi", "Gracie", "Chloe", "Abby", "Scout", "Daisy"];
+
+                if (gender === "male") {
+                    const randomIndexMD = Math.floor(Math.random() * maleDogsArray.length);
+                    const randomDogsMD = maleDogsArray[randomIndexMD];
+                    return `Your random Male Dog Name is: ${randomDogsMD}`;
+                } else if (gender === "female") {
+                    const randomIndexFD = Math.floor(Math.random() * femaleDogsArray.length);
+                    const randomDogsFD = femaleDogsArray[randomIndexFD];
+                    return `Your random Female Dog Name is: ${randomDogsFD}`;
+                } else {
+                    return "Please specify a valid gender.";
+                }
+            }
+
+            function displayRadioValue(radio) {
+                document.getElementById("result").innerHTML = ""; // Clear previous results (if any)
+                document.getElementById("h4").innerHTML = ""; // Clear previous heading (if any)
+
+                switch (radio.value) {
+                    case "MaleDogRadio":
+                        document.getElementById("h4").innerHTML = "Male Dog selected";
+                        const maleDogName = petNameChooser("male");
+                        document.getElementById("result").innerHTML = maleDogName;
+                        break;
+                    case "FemaleDogRadio":
+                        document.getElementById("h4").innerHTML = "Female Dog selected";
+                        const femaleDogName = petNameChooser("female");
+                        document.getElementById("result").innerHTML = femaleDogName;
+                        break;
+                }
+            }
+
+            let radioButtons = document.querySelectorAll('input[type="radio"]');
+
+            radioButtons.forEach(function (radio) {
+                radio.addEventListener('change', function () {
+                    displayRadioValue(radio);
+                });
+            });
+
+            function submitForm() {
+                const radioButtons = document.querySelectorAll('input[type="radio"]');
+                for (let i = 0; i < radioButtons.length; i++) {
+                    if (radioButtons[i].checked) {
+                        displayRadioValue(radioButtons[i]);
+                        break; // Stop once a checked radio button is found
+                    }
+                }
+            }
+
+            // Call the submitForm function after the document is fully loaded to ensure it works correctly
+            window.onload = submitForm;
+        </script>
+
+    </body>
+
+    </html>
 
 
     <div class="container-fluid bg-2 text-center" id="result">
-        test
-        <h4>What Am I?</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut l </p>
+        <h4 id="resultHeader">What Am I?</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua.</p>
     </div>
 
-    <div class="container-fluidT bg-3 text-center">
+    <div class="container-fluid bg-3 text-center">
         <h3>Where To Find Me?</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
     </div>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="petNameChooser.js"></script>
-</body>
-
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>

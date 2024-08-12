@@ -1,0 +1,65 @@
+function petNameChooser() {
+  const MaleDogsArray = ["Rex", "Rover", "Sunny", "Goldie", "Muncher", "Zeus", "Bruno", "Duke"];
+  const FemaleDogsArray = ["Willow", "Sadie", "Issachi", "Gracie", "Chloe", "Abby", "Scout", "Daisy"];
+  
+  const randomIndexMD = Math.floor(Math.random() * MaleDogsArray.length);
+  const randomDogsMD = MaleDogsArray[randomIndexMD];
+
+  const randomIndexFD = Math.floor(Math.random() * FemaleDogsArray.length);
+  const randomDogsFD = FemaleDogsArray[randomIndexFD];
+
+  if (randomDogsMD == true) {
+    return `Your random Male Dog Name is: ${randomDogsMD}`;
+  } else {
+    return `Your random Female Dog Name is: ${randomDogsFD}`;
+  }
+
+
+
+// Assuming radio is defined with properties 'value' and 'maleDogName'
+const dogName = petNameChooser();
+console.log(dogName);
+
+function displayRadioValue(radio) {
+  document.getElementById("result").innerHTML = ""; // Clear previous results (if any)
+  document.getElementById("h4").innerHTML = ""; // Clear previous heading (if any)
+
+  switch (radio.value) {
+    case "MaleDogRadio":
+      document.getElementById("h4").innerHTML = "Male Dog selected";
+      // You can get the dog size from another input or hardcode it here
+      const maleDogName = petNameChooser("male"); // Replace "large" with the desired size
+      document.getElementById("result").innerHTML = maleDogName;
+      console.log(randomDogsMD);
+      break;
+    case "FemaleDogRadio":
+      document.getElementById("h4").innerHTML = "Female Dog selected";
+      // You can get the dog size from another input or hardcode it here
+      const femaleDogName = petNameChooser("female"); // Replace "large" with the desired size
+      document.getElementById("result").innerHTML = femaleDogName;
+      console.log(randomDogsFD);
+      break;
+  }
+}
+
+let radioButtons = document.querySelectorAll('input[type="radio"]');
+
+radioButtons.forEach(function(radio) {
+  radio.addEventListener('change',   
+ function() {
+    displayRadioValue(radio);
+  });
+});
+
+function submitForm() {
+  const radioButtons = document.querySelectorAll('input[type="radio"]');
+  for (let i = 0; i < radioButtons.length; i++) {
+    if (radioButtons[i].checked)   
+{
+      displayRadioValue(radioButtons[i]);
+    }
+  }
+}
+
+}
+submitForm();
