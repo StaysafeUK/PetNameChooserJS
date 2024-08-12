@@ -81,12 +81,12 @@
                 if (gender === "male") {
                     const randomIndexMD = Math.floor(Math.random() * maleDogsArray.length); // randomize male Dog Array
                     const randomDogsMD = maleDogsArray[randomIndexMD];
-                    return `Your random Male Dog Name is: ${randomDogsMD}`;
+                    return `Your Male Dog Name is: ${randomDogsMD}`;
                 } else if (gender === "female") {
                     const randomIndexFD = Math.floor(Math.random() * femaleDogsArray
                     .length); // randomize female Dog Array
                     const randomDogsFD = femaleDogsArray[randomIndexFD];
-                    return `Your random Female Dog Name is: ${randomDogsFD}`;
+                    return `Your Female Dog Name is: ${randomDogsFD}`;
                 } else {
                     return "Please specify a valid gender.";
                 }
