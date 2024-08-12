@@ -10,6 +10,12 @@
     background-color: #ffffff;
     color: #555555;
   }
+
+  #bg-4 {
+    background-color: brown;
+    color: #555555;
+  }
+
   .container-fluid {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -25,7 +31,12 @@
     padding-left: 70px;
     padding-bottom:  50px;
     }
-  
+
+    .footermain {
+      display: flex; /* Make the div a flex container */
+      justify-content: center; /* Center the content horizontally */
+      align-items: center; /* Align content vertically */
+    }
 
   .form-check {
     margin-bottom: 10px; /* Optional spacing between radio buttons */
