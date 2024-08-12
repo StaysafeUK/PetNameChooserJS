@@ -84,14 +84,12 @@
                     const randomIndexMD = Math.floor(Math.random() * maleDogsArray.length); // randomize male Dog Array
                     const randomDogsMD = maleDogsArray[randomIndexMD];
                     return `Your Dogs Name could be: ${randomDogsMD}`;
-                } else if (gender === "female") {
+                } else { (gender === "female") 
                     const randomIndexFD = Math.floor(Math.random() * femaleDogsArray
                     .length); // randomize female Dog Array
                     const randomDogsFD = femaleDogsArray[randomIndexFD];
                     return `Your Dogs Name could be: ${randomDogsFD}`;
-                } else {
-                    return "Please specify a valid gender.";
-                }
+                } 
             }
 
             function displayRadioValue(radio) {
