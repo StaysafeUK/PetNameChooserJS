@@ -19,7 +19,7 @@
 
 <body>
     <div class="container-fluid bg-1 text-center">
-        <h3>Pet Name Chooser</h3>
+        <h3>Dog Name Chooser</h3>
         <img src="/assets/images/twodogswithball.webp" class="img-circle" id="interimage"
             alt="two dogs playing with a ball" width="350" height="350">
         <h3>Find a name for your new favorite friend</h3>
@@ -36,6 +36,8 @@
 
     <body>
         <div class="container-fluid bg-4 text-center text-black">
+            <h4>What gender is your dog?</h4>
+            <br>
         <input type="radio" name="dogGender" value="MaleDogRadio"> Male
         <input type="radio" name="dogGender" value="FemaleDogRadio"> Female
         <button onclick="submitForm()" class="btn-sm btn-success">Submit</button>
@@ -81,12 +83,12 @@
                 if (gender === "male") {
                     const randomIndexMD = Math.floor(Math.random() * maleDogsArray.length); // randomize male Dog Array
                     const randomDogsMD = maleDogsArray[randomIndexMD];
-                    return `Your Dog's Name is: ${randomDogsMD}`;
+                    return `Your Dogs Name could be: ${randomDogsMD}`;
                 } else if (gender === "female") {
                     const randomIndexFD = Math.floor(Math.random() * femaleDogsArray
                     .length); // randomize female Dog Array
                     const randomDogsFD = femaleDogsArray[randomIndexFD];
-                    return `Your Dog's Name is: ${randomDogsFD}`;
+                    return `Your Dogs Name could be: ${randomDogsFD}`;
                 } else {
                     return "Please specify a valid gender.";
                 }
