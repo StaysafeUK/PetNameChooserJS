@@ -1,4 +1,4 @@
-<div align="center">
+<div>
 <img src="../PetNameChooserJS/documentation/wireframes/donameChooserWeb.png" alt="Main page wireframe Desktop">
 </div>
 
