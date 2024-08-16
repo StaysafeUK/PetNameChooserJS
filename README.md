@@ -1,5 +1,5 @@
-<div align ="center">
-<img src="assets/documentation/wireframes/dognameChooserWeb.png" alt="Main page wireframe Desktop">
+<div align="center">
+<img src="../PetNameChooserJS/documentation/wireframes/donameChooserWeb.png" alt="Main page wireframe Desktop">
 </div>
 
 # TABLE OF CONTENTS
