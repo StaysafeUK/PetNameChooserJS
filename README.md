@@ -1,5 +1,5 @@
-<div align ="center">
-<img src="assets/documentation/wireframes/dognameChooserWeb.png" alt="Main page wireframe Desktop">
+<div>
+<img src="../PetNameChooserJS/documentation/wireframes/dognameChooserWeb.png" alt="Main page wireframe Desktop">
 </div>
 
 # TABLE OF CONTENTS
@@ -70,4 +70,31 @@ this task.
 ## Banner
 - Due to the objective of this task no banner is used for this web page, as the objective is 
 to highlight my ability to manipulate the DOM.
+
+# 4. WIRE FRAMES
+
+The diagrams below show the wireframe layout in Web and Mobile formats,  these wireframe diagrams 
+show the website upon loading the page,  if this view is required after using the Dog NAme chooser 
+either refresh the page or reload the website. The design will stay close to these images produced 
+however there might be some modifications from the original wireframe design.
+
+## Large Screen Web layout
+
+<div>
+<img src="../PetNameChooserJS/documentation/wireframes/dognameChooserWeb.png" alt="Main page wireframe Desktop">
+</div>
+
+## Mobile screen view of website
+
+<div>
+<img src="../PetNameChooserJS/documentation/wireframes/dognameChooserMobile.png" alt="Main Page Wireframe Mobile">
+</div>
+
+
+
+
+
+
+
+
 
