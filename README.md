@@ -1,3 +1,7 @@
+<div align ="center">
+<img src="assets/documentation/wireframes/dognameChooserWeb.png" alt="Main page wireframe Desktop">
+</div>
+
 # TABLE OF CONTENTS
 
 ## 1. USER GOALS
