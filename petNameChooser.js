@@ -1,15 +1,15 @@
 function petNameChooser(gender) {
-  const maleDogsArray = ["Rex", "Rover", "Sunny", "Goldie", "Muncher", "Zeus", "Bruno", "Duke"];
-  const femaleDogsArray = ["Willow", "Sadie", "Issachi", "Gracie", "Chloe", "Abby", "Scout", "Daisy"];
+  const maleDogsArray = ["Rex", "Rover", "Sunny", "Goldie", "Muncher", "Zeus", "Bruno", "Duke", "Cooper", "Bandit", "Beau", "Toby", "Bailey", "Benji", "Buster", "Ace"];
+  const femaleDogsArray = ["Willow", "Sadie", "Issachi", "Gracie", "Chloe", "Abby", "Scout", "Daisy", "Willow", "Sadie", "Issachi", "Gracie", "Chloe", "Abby", "Scout", "Daisy"];
   
   if (gender === "male") {
     const randomIndexMD = Math.floor(Math.random() * maleDogsArray.length);
     const randomDogsMD = maleDogsArray[randomIndexMD];
-    return `Your random Male Dog Name is: ${randomDogsMD}`;
+    return `Your suggested Male Dog Name is: ${randomDogsMD}`;
   } else if (gender === "female") {
     const randomIndexFD = Math.floor(Math.random() * femaleDogsArray.length);
     const randomDogsFD = femaleDogsArray[randomIndexFD];
-    return `Your random Female Dog Name is: ${randomDogsFD}`;
+    return `Your suggested Female Dog Name is: ${randomDogsFD}`;
   } else {
     return "Please specify a valid gender.";
   }
