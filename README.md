@@ -19,7 +19,7 @@ to produce images of dog(s) and suggest a good name for a users pet.
 - The site owners goal is to provide new names and some images of dogs on all devices with the correct
 viewpoint, where the website is clean and displays correctly.
 
-# Features 
+# 3. FEATURES 
 
 ## INDEX PAGE
 ## Random name listing
@@ -37,7 +37,7 @@ Mobile first design concept was used throught this project,  at the UX/UI stage 
 documents where used to get a clear concise page that meets the objective, This project only requires one page
 as a future, and it is possible that this script will be used in a further project. 
 
-# 3. UX/UI
+# 4. UX/UI
 
 ## 1. Target Audience
 - People looking to name a new pet Dog whom cannot think of a sutible name
@@ -71,7 +71,7 @@ this task.
 - Due to the objective of this task no banner is used for this web page, as the objective is 
 to highlight my ability to manipulate the DOM.
 
-# 4. WIRE FRAMES
+# 5. WIREFRAMES
 
 The diagrams below show the wireframe layout in Web and Mobile formats,  these wireframe diagrams 
 show the website upon loading the page,  if this view is required after using the Dog NAme chooser 
@@ -89,6 +89,10 @@ however there might be some modifications from the original wireframe design.
 <div>
 <img src="../PetNameChooserJS/documentation/wireframes/dognameChooserMobile.png" alt="Main Page Wireframe Mobile">
 </div>
+
+# 6. TESTING
+
+
 
 
 
