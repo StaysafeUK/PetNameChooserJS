@@ -147,12 +147,97 @@ Testing has been completed on the following browsers:
 
 I tested my site agaist the following completed user stories
 
-1. User Story I want to be able to get a selection of names for a male or female dog
+1. User Story: "I want to be able to get a selection of names for a male or female dog."
 <div>
 <img src="../PetNameChooserJS/documentation/images/UserStory1.png">
 </div>
 
-example below of Male Dog selection selecting the name 
+example below of Male Dog selection selecting the name meeting the user story:
+<div>
+<img src="../PetNameChooserJS/documentation/images/UserStory1Benjiweb.png">
+</div>
+
+2. User Story: "As a user I want to see new images of dogs when I select a name."
+<div>
+<img src="../PetNameChooserJS/documentation/images/UserStory2.png">
+</div>
+
+User Story compliant with web page see below showiung a picture of a female puppy:
+<div>
+<img src="../PetNameChooserJS/documentation/images/UserStory2Abbyweb.png">
+</div>
+
+3.  User Story: "New generated Name for dog clearly displayed."
+<div>
+<img src="../PetNameChooserJS/documentation/images/UserStory3.png">
+</div>
+
+Below is an image of the user story meeting it's criteria:
+<div>
+<img src="../PetNameChooserJS/documentation/images/UserStory1Benjiweb.png">
+</div>
+
+## Bugs fixed during Development
+
+## Radio buttons unaligned
+
+- Radio buttons when centered in the screen where staggered horizontally therefore I opted to have the radio buttons side by side which meets the critera of being easily managed to select the sex of the dog.
+
+## Random names from the array
+
+- At first I had a problem where the name selections where not random from the array,  I fixed this bug by using 
+
+<i>const randomIndexMD = Math.floor(Math.random() * maleDogsArray.length);
+const randomDogsMD = maleDogsArray[randomIndexMD];
+
+const randomIndexMD = Math.floor(Math.random() * femaleDogsArray.length);
+const randomDogsMD = femaleDogsArray[randomIndexMD];</i>
+
+## Images on Website of poor quality 
+- I resolved this issue of poor quality images by using the webp format converter https://convertio.co/jpg-webp/ 
+
+# 7. DEPLOYMENT
+
+Site Deployment method
+
+- This site was deployed using Github pages in Settings, Pages 
+- The page is deployed from the Main branch, at the top of the pages it shows
+when the site is corretly deployed
+- Any changes to the main branch will be deployed to the main project.
+
+# 8. SOURCES
+
+## Media
+
+- The three photos used in this site where generated from pixr.com and meet copyright guidelines laws as these images are AI generated none of the animals show in this picture are real.
+
+## Content
+
+- The text used in this website is original and does not come from any source therefore no copyright is required.
+
+## Code
+
+- The layout template was based on https://w3schools.com DIV layouts,  modified.
+- Font Awesome Links 4.7.0 where used for the social media icons
+- Balsamiq was used to create the Wireframe during the UI/UX design process.
+
+# 9. FUTURE FEATURES
+
+- IF this project goes to a future iteration I created the following:
+- USER STORY: Name suggestion for different sizes of dogs -  This would include Small, Medium and Large Dognames for nale and female dogs.
+- Potentially in a further iteration this Dog Name Chooser could include other animals and be called Pet Name Chooser,  such animals would include ,cats, rabbits, guinea pigs, fish, birds, gerbils and tortoises to name some of the top 10 pets in the UK.
+
+# END OF README.md
+
+
+
+
+
+
+
+
+
+
 
 
 
