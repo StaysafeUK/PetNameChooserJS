@@ -95,6 +95,17 @@ however there might be some modifications from the original wireframe design.
 
 We ran HTML validation using the W3C Markup service and the results can be found in the link below.
 
+## Home Page index.html
+
+<div>
+<img src="../PetNameChooserJS/documentation/images/W3CIndexTesting.png">
+</div>
+
+The Info trailing slash on void elements has been removed and is now resolved.
+
+The warning for the h4 id relates to the title used for the DOM Manipulation so needs to be left
+as is.
+
 
 
 
