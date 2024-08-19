@@ -118,8 +118,41 @@ The Website is WCAG & ADDA compliant see image below
 
 ## Device Testing 
 
-I have tested the site with the following devices
+I have tested the site with the following devices:  
 
+[ ] Google Android Pixel 7 Phone
+[ ] Xiami Android Redmi Phone  
+[ ] Google Chrome Book
+[ ] Apple MacBook Pro
+[ ] Apple IPad
+[ ] Chrome Developer tools (simulating for all devices)
+
+The site functioned as designed and works well using these different device types
+
+## Browser Testing 
+
+Testing has been completed on the following browsers:
+
+[ ] Google Chrome (With Developer Tools)
+[ ] Android Google Chrome
+[ ] Safari 
+
+## Tests performed 
+
+<div> 
+<img src="../PetNameChooserJS/documentation/images/TestingSheetIMG.png"> 
+</div>
+
+## Testing user stories
+
+I tested my site agaist the following completed user stories
+
+1. User Story I want to be able to get a selection of names for a male or female dog
+<div>
+<img src="../PetNameChooserJS/documentation/images/UserStory1.png">
+</div>
+
+example below of Male Dog selection selecting the name 
 
 
 
