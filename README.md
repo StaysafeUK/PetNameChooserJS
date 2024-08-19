@@ -1,5 +1,5 @@
 <div>
-<img src="../PetNameChooserJS/documentation/images/JSPetNameChooserScreens.png" alt="Main page wireframe Desktop">
+<img src="documentation/images/JSPetNameChooserScreens.png" alt="Main page wireframe Desktop">
 </div>
 
 # TABLE OF CONTENTS
@@ -81,13 +81,13 @@ however there might be some modifications from the original wireframe design.
 ## Large Screen We layout
 
 <div>
-<img src="../PetNameChooserJS/documentation/wireframes/dognameChooserWe.png" alt="Main page wireframe Desktop">
+<img src="documentation/wireframes/dognameChooserWe.png" alt="Main page wireframe Desktop">
 </div>
 
 ## Mobile screen view of Wesite
 
 <div>
-<img src="../PetNameChooserJS/documentation/wireframes/dognameChooserMobile.png" alt="Main Page Wireframe Mobile">
+<img src="documentation/wireframes/dognameChooserMobile.png" alt="Main Page Wireframe Mobile">
 </div>
 
 
@@ -98,7 +98,7 @@ I ran HTML validation using the W3C Markup service and the results can be found 
 ## Home Page index.html
 
 <div>
-<img src="../PetNameChooserJS/documentation/images/W3CIndexTesting.png" alt="W3C testing image">
+<img src="documentation/images/W3CIndexTesting.png" alt="W3C testing image">
 </div>
 
 The Info trailing slash on void elements has been removed and is now resolved.
@@ -113,7 +113,7 @@ Accessibility has been tested with accessScan,  modifications where made to inde
 The Website is WCAG & ADDA compliant see image below
 
 <div> 
-<img src="../PetNameChooserJS/documentation/images/accessWeilityScreentTestingA.png" alt="Wesite meets WCAG and ADDA compliance">
+<img src="documentation/images/accessWeilityScreentTestingA.png" alt="Wesite meets WCAG and ADDA compliance">
 </div>
 
 ## Device Testing 
@@ -140,7 +140,7 @@ Testing has been completed on the following browsers:
 ## Tests performed 
 
 <div> 
-<img src="../PetNameChooserJS/documentation/images/TestingSheetIMG.png"> 
+<img src="documentation/images/TestingSheetIMG.png"> 
 </div>
 
 ## Testing user stories
@@ -149,32 +149,32 @@ I tested my site agaist the following completed user stories
 
 1. User Story: "I want to be able to get a selection of names for a male or female dog."
 <div>
-<img src="../PetNameChooserJS/documentation/images/UserStory1.png">
+<img src="documentation/images/UserStory1.png">
 </div>
 
 example below of Male Dog selection selecting the name meeting the user story:
 <div>
-<img src="../PetNameChooserJS/documentation/images/UserStory1Benjiweb.png">
+<img src="documentation/images/UserStory1Benjiweb.png">
 </div>
 
 2. User Story: "As a user I want to see new images of dogs when I select a name."
 <div>
-<img src="../PetNameChooserJS/documentation/images/UserStory2.png">
+<img src="documentation/images/UserStory2.png">
 </div>
 
 User Story compliant with web page see below showiung a picture of a female puppy:
 <div>
-<img src="../PetNameChooserJS/documentation/images/UserStory2Abbyweb.png">
+<img src="documentation/images/UserStory2Abbyweb.png">
 </div>
 
 3.  User Story: "New generated Name for dog clearly displayed."
 <div>
-<img src="../PetNameChooserJS/documentation/images/UserStory3.png">
+<img src="documentation/images/UserStory3.png">
 </div>
 
 Below is an image of the user story meeting it's criteria:
 <div>
-<img src="../PetNameChooserJS/documentation/images/UserStory1Benjiweb.png">
+<img src="documentation/images/UserStory1Benjiweb.png">
 </div>
 
 ## Bugs fixed during Development
