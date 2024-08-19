@@ -106,7 +106,11 @@ The Info trailing slash on void elements has been removed and is now resolved.
 The warning for the h4 id relates to the title used for the DOM Manipulation so needs to be left
 as is.
 
+## Accessibility 
 
+Accessibility has been tested with accessScan,  modifications where made to index.html including aria labels where appropiate for hard of site users.  
+
+find the link below to the report.
 
 
 
