@@ -1,5 +1,5 @@
 <div>
-<img src="../PetNameChooserJS/documentation/wireframes/dognameChooserWeb.png" alt="Main page wireframe Desktop">
+<img src="../PetNameChooserJS/documentation/images/JSPetNameChooserScreens.png" alt="Main page wireframe Desktop">
 </div>
 
 # TABLE OF CONTENTS
