@@ -120,12 +120,12 @@ The Website is WCAG & ADDA compliant see image below
 
 I have tested the site with the following devices:  
 
-[ ] Google Android Pixel 7 Phone
-[ ] Xiami Android Redmi Phone  
-[ ] Google Chrome Book
-[ ] Apple MacBook Pro
-[ ] Apple IPad
-[ ] Chrome Developer tools (simulating for all devices)
+- Google Android Pixel 7 Phone
+- Xiami Android Redmi Phone  
+- Google Chrome Book
+- Apple MacBook Pro
+- Apple IPad
+- Chrome Developer tools (simulating for all devices)
 
 The site functioned as designed and works well using these different device types
 
@@ -133,9 +133,9 @@ The site functioned as designed and works well using these different device type
 
 Testing has been completed on the following browsers:
 
-[ ] Google Chrome (With Developer Tools)
-[ ] Android Google Chrome
-[ ] Safari 
+- Google Chrome (With Developer Tools)
+- Android Google Chrome
+- Safari 
 
 ## Tests performed 
 
