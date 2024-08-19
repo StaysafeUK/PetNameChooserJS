@@ -90,7 +90,14 @@ however there might be some modifications from the original wireframe design.
 <img src="../PetNameChooserJS/documentation/wireframes/dognameChooserMobile.png" alt="Main Page Wireframe Mobile">
 </div>
 
+
 # 6. TESTING
+
+We ran HTML validation using the W3C Markup service and the results can be found in the link below.
+
+
+
+
 
 
 
