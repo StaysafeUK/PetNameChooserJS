@@ -8,7 +8,7 @@
 
 - The users goal is to recive a new name for a potental/paid for dog either male or female
 - The users goal is to be able to select precisely male or female and select a random dog name
-- The users goal is see newimages of dog(s) when selecting Male and Female
+- The users goal is see new images of dog(s) when selecting Male and Female
 - The users goal is to have new generated names for dogs clearly displayed
 
 ## 2. SITE OWNER GOALS
@@ -17,19 +17,19 @@
 to produce images of dog(s) and suggest a good name for a users pet.
 
 - The site owners goal is to provide new names and some images of dogs on all devices with the correct
-viewpoint, where the website is clean and displays correctly.
+viewpoint, where the Wesite is clean and displays correctly.
 
 # 3. FEATURES 
 
 ## INDEX PAGE
 ## Random name listing
-The website has the ability to create dynamic names of dog for both sexes,  the functionality enables the 
+The Website has the ability to create dynamic names of dog for both sexes,  the functionality enables the 
 user to select a new name if they do not accept the name they are given, as many times as the names are random
 from the male and female array.
 
-## Images of correct sex of dog shown on the webpage after selection
-The javascript code has DOM (Document Object Model) to manipulate the webpage to produce male or female images
-of puppies when selecting from radio buttons.  The images are responsive and set at the correct sizes in WebP 
+## Images of correct sex of dog shown on the Wepage after selection
+The javascript code has DOM (Document Object Model) to manipulate the Webpage to produce male or female images
+of puppies when selecting from radio buttons.  The images are responsive and set at the correct sizes in WeP 
 format.
 
 ## Responsive Design
@@ -40,7 +40,7 @@ as a future, and it is possible that this script will be used in a further proje
 # 4. UX/UI
 
 ## 1. Target Audience
-- People looking to name a new pet Dog whom cannot think of a sutible name
+- People looking to name a new pet Dog whom cannot think of a appropiate name
 - People whom would like to get a few ideas about a name for a dog
 - People whom are too busy to think of a name or already have multiple dogs
 
@@ -58,33 +58,33 @@ as a future, and it is possible that this script will be used in a further proje
 
 ## Colour Scheme
 - I opted for a simplistic colour scheme of Grey/Green #373E3D White #FFFFFF Green RGB(0,128, 0) 
-and Blue RGB(0,255,0) for social media font awesome icons.  White for text against Grey/Green 
-background DIVS and black text against white background.   The Button that we have used is a 
+and Blue RGB(0,255,0) for social media font aIsome icons.  White for text against Grey/Green 
+background DIVS and black text against white background.   The Button that I have used is a 
 success button on bootstrap 4.6.2.
 
 ## Fonts 
-- Due to the objective being to create a website page with javascript manipulating the DOM we
-have decided to use default fonts.  The typeface is clear and well defined for the purpose of 
+- Due to the objective being to create a Website page with javascript manipulating the DOM I
+have decided to use default fonts.  The typeface is clear and Ill defined for the purpose of 
 this task.
 
 ## Banner
-- Due to the objective of this task no banner is used for this web page, as the objective is 
+- Due to the objective of this task no banner is used for this Web page, as the objective is 
 to highlight my ability to manipulate the DOM.
 
 # 5. WIREFRAMES
 
-The diagrams below show the wireframe layout in Web and Mobile formats,  these wireframe diagrams 
-show the website upon loading the page,  if this view is required after using the Dog NAme chooser 
-either refresh the page or reload the website. The design will stay close to these images produced 
+The diagrams below show the wireframe layout in We and Mobile formats,  these wireframe diagrams 
+show the Website upon loading the page,  if this view is required after using the Dog NAme chooser 
+either refresh the page or reload the Website. The design will stay close to these images produced 
 however there might be some modifications from the original wireframe design.
 
-## Large Screen Web layout
+## Large Screen We layout
 
 <div>
-<img src="../PetNameChooserJS/documentation/wireframes/dognameChooserWeb.png" alt="Main page wireframe Desktop">
+<img src="../PetNameChooserJS/documentation/wireframes/dognameChooserWe.png" alt="Main page wireframe Desktop">
 </div>
 
-## Mobile screen view of website
+## Mobile screen view of Wesite
 
 <div>
 <img src="../PetNameChooserJS/documentation/wireframes/dognameChooserMobile.png" alt="Main Page Wireframe Mobile">
@@ -93,12 +93,12 @@ however there might be some modifications from the original wireframe design.
 
 # 6. TESTING
 
-We ran HTML validation using the W3C Markup service and the results can be found in the link below.
+I ran HTML validation using the W3C Markup service and the results can be found in the link below.
 
 ## Home Page index.html
 
 <div>
-<img src="../PetNameChooserJS/documentation/images/W3CIndexTesting.png">
+<img src="../PetNameChooserJS/documentation/images/W3CIndexTesting.png" alt="W3C testing image">
 </div>
 
 The Info trailing slash on void elements has been removed and is now resolved.
@@ -108,9 +108,17 @@ as is.
 
 ## Accessibility 
 
-Accessibility has been tested with accessScan,  modifications where made to index.html including aria labels where appropiate for hard of site users.  
+Accessibility has been tested with accessScan,  modifications where made to index.html including aria labels where appropiate for hard of sight users.  
 
-find the link below to the report.
+The Website is WCAG & ADDA compliant see image below
+
+<div> 
+<img src="../PetNameChooserJS/documentation/images/accessWeilityScreentTestingA.png" alt="Wesite meets WCAG and ADDA compliance">
+</div>
+
+## Device Testing 
+
+I have tested the site with the following devices
 
 
 
