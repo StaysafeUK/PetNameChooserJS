@@ -81,7 +81,7 @@ however there might be some modifications from the original wireframe design.
 ## Large Screen We layout
 
 <div>
-<img src="documentation/wireframes/dognameChooserWe.png" alt="Main page wireframe Desktop">
+<img src="documentation/wireframes/dognameChooserWeb.png" alt="Main page wireframe Desktop">
 </div>
 
 ## Mobile screen view of Wesite
@@ -113,7 +113,7 @@ Accessibility has been tested with accessScan,  modifications where made to inde
 The Website is WCAG & ADDA compliant see image below
 
 <div> 
-<img src="documentation/images/accessWeilityScreentTestingA.png" alt="Wesite meets WCAG and ADDA compliance">
+<img src="documentation/images/accessibilityScreentTestingA.png" alt="Website meets WCAG and ADDA compliance">
 </div>
 
 ## Device Testing 
