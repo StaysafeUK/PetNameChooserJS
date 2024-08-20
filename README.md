@@ -21,7 +21,7 @@ female.
 to produce images of dog(s) and suggest a good name for a users pet or pets.
 
 - The site owners goal is to provide new names and some images of dogs on all devices with the correct
-viewpoint, where the site is clean and displays correctly.
+viewpoint, so the site is clean and displays correctly.
 
 # 3. FEATURES
 
@@ -39,8 +39,8 @@ format.
 
 ## Responsive Design
 Mobile first design concept was used throughout this project,  at the UX/UI stage of design wire frame design
-documents where used to get a clear concise page that meets the objective, This project only requires one page,
-in the future it is possible that this javascript page will be used in a further project.
+documents wfere used to get a clear concise page that meets the objective, This project only requires one page,
+in the futu it is possible that this javascript page will be used in a further project.
 
 # 4. UX/UI
 
@@ -130,7 +130,7 @@ I ran the HTML code through https://www.aliciaramirez.com/closing-tags-checker/ 
 
 ## Accessibility
 
-Accessibility has been tested with accessScan,  modifications were made to index.html including aria labels where appropriate for hard of sight users. 
+Accessibility has been tested with accessScan,  modifications were made to index.html including aria labels.  This is appropriate for hard of sight users. 
 
 The Website is <b>WCAG & ADDA</b> compliant see image below
 
@@ -255,7 +255,7 @@ when the site is correctly deployed and displays the URL where the page can be v
 
 - The layout template was based on https://w3schools.com DIV layouts,  modified.
 
-- Font Awesome Links 4.7.0 where used for the social media icons
+- Font Awesome Links 4.7.0 were used for the social media icons
 
 - Balsamiq was used to create the Wireframe during the UI/UX design process.
 
