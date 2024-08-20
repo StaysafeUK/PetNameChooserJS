@@ -92,7 +92,7 @@ either refresh the page or reload the Website. The design will stay close to the
 however there might be some modifications from the original wireframe design.
 
 
-## Large Screen We layout
+## Large Screen Web Layout
 
 <div>
 <img src="documentation/wireframes/dognameChooserWeb.png" alt="Main page wireframe Desktop">
