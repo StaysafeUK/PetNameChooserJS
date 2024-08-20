@@ -261,7 +261,7 @@ when the site is correctly deployed and displays the URL where the page can be v
 
 # 9. FUTURE FEATURES
 
-- IF this project goes to a future iteration I created the following I created the following User Stories:
+- If this project goes to a future iteration I created the following user stories:
 
 - USER STORY: Name suggestion for different sizes of dogs -  This would include Small, Medium and Large Dog names for male and female dogs.
 
