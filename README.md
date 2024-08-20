@@ -6,14 +6,15 @@
 
 ## 1. USER GOALS
 
-- The users goal is to recive a new name for a potental/paid for dog either male or female
+- The users goal is to recive a new name for a potental/new dog purchase for dog(s) either male or 
+female.
 - The users goal is to be able to select precisely male or female and select a random dog name
 - The users goal is see new images of dog(s) when selecting Male and Female
 - The users goal is to have new generated names for dogs clearly displayed
 
 ## 2. SITE OWNER GOALS
 
-- The site owners goal is to have a clear concise site running Java Script that manipulates the DOM 
+- The site owners goal is to have a clear concise site running JavaScript that manipulates the DOM 
 to produce images of dog(s) and suggest a good name for a users pet or pets.
 
 - The site owners goal is to provide new names and some images of dogs on all devices with the correct
@@ -74,7 +75,7 @@ to highlight my ability to manipulate the DOM.
 # 5. WIREFRAMES
 
 The diagrams below show the wireframe layout in desktop and Mobile formats,  these wireframe diagrams 
-show the Website upon loading the page,  if this view is required after using the Dog Name chooser 
+show the Website on loading the page,  if this view is required after using the Dog Name chooser 
 either refresh the page or reload the Website. The design will stay close to these images produced 
 however there might be some modifications from the original wireframe design.
 
@@ -118,7 +119,7 @@ I ran the HTML code through https://www.aliciaramirez.com/closing-tags-checker/ 
 
 Accessibility has been tested with accessScan,  modifications where made to index.html including aria labels where appropiate for hard of sight users.  
 
-The Website is WCAG & ADDA compliant see image below
+The Website is <b>WCAG & ADDA</b> compliant see image below
 
 <div> 
 <img src="documentation/images/accessibilityScreentTestingA.png" alt="Website meets WCAG and ADDA compliance">
