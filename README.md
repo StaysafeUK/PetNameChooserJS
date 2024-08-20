@@ -27,8 +27,8 @@ The site has the ability to create dynamic names of dog for both sexes,  the fun
 user to select a new name if they do not accept the name they are given, as many times as the names are random
 from the male and female array.
 
-## Images of correct sex of dog shown on the Wepage after selection
-The javascript code has DOM (Document Object Model) to manipulate the Web page to produce male or female images
+## Images of correct sex of dog shown on the Web page after selection
+The javascript code uses (Document Object Model) to manipulate the Web page to produce male or female images
 of puppies when selecting from radio buttons.  The images are responsive and set at the correct sizes in WebP 
 format.
 
