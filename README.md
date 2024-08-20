@@ -128,6 +128,14 @@ I ran the HTML code through https://www.aliciaramirez.com/closing-tags-checker/ 
 <img src="documentation/images/DivChecker.png" alt="Div Checker image">
 </div>
 
+## JShint 
+
+JavaScript Hint was used to check the syntax,  warnings make up the majority with 16 mentioned  which mainly relate to ES6. None of the errors are serious and the javascript code runs as expected.
+
+<div>
+<img src="documentation/images/jshint.png" alt="JShint Checker image">
+</div>
+
 ## Accessibility
 
 Accessibility has been tested with accessScan,  modifications were made to index.html including aria labels.  This is appropriate for hard of sight users. 
