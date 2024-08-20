@@ -39,7 +39,7 @@ format.
 
 ## Responsive Design
 Mobile first design concept was used throughout this project,  at the UX/UI stage of design wire frame design
-documents wfere used to get a clear concise page that meets the objective, This project only requires one page,
+documents were used to get a clear concise page that meets the objective, This project only requires one page,
 in the futu it is possible that this javascript page will be used in a further project.
 
 # 4. UX/UI
