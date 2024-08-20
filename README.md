@@ -237,8 +237,9 @@ when the site is correctly deployed and displays the URL where the page can be v
 # 9. FUTURE FEATURES
 
 - IF this project goes to a future iteration I created the following:
-- USER STORY: Name suggestion for different sizes of dogs -  This would include Small, Medium and Large Dognames for nale and female dogs.
-- Potentially in a further iteration this Dog Name Chooser could include other animals and be called Pet Name Chooser,  such animals would include ,cats, rabbits, guinea pigs, fish, birds, gerbils and tortoises to name some of the top 10 pets in the UK.
+- USER STORY: Name suggestion for different sizes of dogs -  This would include Small, Medium and Large Dog names for male and female dogs.
+- Potentially in a further iteration this Dog Name Chooser could include other animals and be called Pet Name Chooser,  such animals would 
+include ,cats, rabbits, guinea pigs, fish, birds, gerbils and tortoises to name some of the top 10 pets in the UK.
 
 # END OF README.md
 
