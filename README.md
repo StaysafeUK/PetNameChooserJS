@@ -75,7 +75,7 @@ success button on bootstrap 4.6.2.
 ## Fonts
 
 - Due to the objective being to create a HTML page with javascript manipulating the DOM I
-have decided to use default fonts.  The typeface is clear and Ill defined for the purpose of
+have decided to use default fonts.  The typeface is clear and well defined for the purpose of
 this task.
 
 ## Banner
