@@ -106,6 +106,14 @@ The Info trailing slash on void elements has been removed and is now resolved.
 The warning for the h4 id relates to the title used for the DOM Manipulation so needs to be left
 as is.
 
+## Div Checker index.html
+
+I ran the HTML code through https://www.aliciaramirez.com/closing-tags-checker/ and the HTML passed with no unclosed HTML tags.  see the image below for results.
+
+<div>
+<img src="documentation/images/DivChecker.png" alt="Div Checker image">
+</div>
+
 ## Accessibility 
 
 Accessibility has been tested with accessScan,  modifications where made to index.html including aria labels where appropiate for hard of sight users.  
