@@ -208,7 +208,7 @@ Below is an image of the user story meeting it's criteria:
 
 ## JavaScript Testing
 
-The JS code has been tested throughout the development process, using console.log before the DOM manipulation was implemented.  The Arrays response on the page has been tested in all viewpoints once the button  <i> <button onclick="submitForm()" </i> has been submitted,  The script will select a name listed in the array at random for the Radio button that is selected Male/Female.  The button and DOM output has been tested on all viewpoints.
+The JS code has been tested throughout the development process, using console.log before the DOM manipulation was implemented.  The Arrays response on the page has been tested in all viewpoints when the button  <i> <button onclick="submitForm()" </i> has been submitted,  The script will select a name listed in the array at random for the Radio button that is selected Male/Female.  The button and DOM output has been tested on all viewpoints.
 
 ## Bugs fixed during Development
 
