@@ -34,8 +34,8 @@ format.
 
 ## Responsive Design
 Mobile first design concept was used throught this project,  at the UX/UI stage of design wire frame design 
-documents where used to get a clear concise page that meets the objective, This project only requires one page
-as a future, and it is possible that this script will be used in a further project. 
+documents where used to get a clear concise page that meets the objective, This project only requires one page, 
+as a future it is possible that this javascript page will be used in a further project. 
 
 # 4. UX/UI
 
