@@ -8,8 +8,11 @@
 
 - The users goal is to receive a new name for a potential/new dog purchase for dog(s) either male or
 female.
+
 - The users goal is to be able to select precisely male or female and select a random dog name
+
 - The users goal is see new images of dog(s) when selecting Male and Female
+
 - The users goal is to have new generated names for dogs clearly displayed
 
 ## 2. SITE OWNER GOALS
@@ -24,10 +27,10 @@ viewpoint, where the site is clean and displays correctly.
 
 ## INDEX PAGE
 ## Random name listing
+
 The site has the ability to create dynamic names of dog for both sexes,  the functionality enables the
 user to select a new name if they do not accept the name they are given, as many times as the names are random
 from the male and female array.
-
 
 ## Images of correct sex of dog shown on the Web page after selection
 The javascript code uses (Document Object Model) to manipulate the Web page to produce male or female images
@@ -42,18 +45,23 @@ in the future it is possible that this javascript page will be used in a further
 # 4. UX/UI
 
 ## 1. Target Audience
-- People looking to name a new pet Dog who cannot think of a appropriate name
+- People looking to name a new pet Dog who cannot think of an appropriate name
+
 - People whom would like to get a few ideas about a name for a dog
+
 - People whom are too busy to think of a name or already have multiple dogs
 
 ## 2. User Stories
 ## Iteration 1
 - USER STORY: As a user I want to be able to get a selection of names for a male or female dog(s)
+
 - USER STORY: As a user I want to see new images of dogs when I select a name
+
 - USER STORY: As a User I want New generated names for dogs clearly displayed
 
 ## Future Iteration
 - USER STORY: As a user JS Pet Name Chooser to designed so it can be reused in the future
+
 - USER STORY: As a user name suggestions for different sizes of dogs.
 
 # Design choice
@@ -65,11 +73,13 @@ background DIVS and black text against white background.   The Button that I hav
 success button on bootstrap 4.6.2.
 
 ## Fonts
+
 - Due to the objective being to create a HTML page with javascript manipulating the DOM I
 have decided to use default fonts.  The typeface is clear and Ill defined for the purpose of
 this task.
 
 ## Banner
+
 - Due to the objective of this task no banner is used for this web page, as the objective is
 to highlight my ability to manipulate the DOM.
 
@@ -119,7 +129,6 @@ I ran the HTML code through https://www.aliciaramirez.com/closing-tags-checker/ 
 </div>
 
 ## Accessibility
-
 
 Accessibility has been tested with accessScan,  modifications were made to index.html including aria labels where appropriate for hard of sight users. 
 
@@ -199,7 +208,6 @@ Below is an image of the user story meeting it's criteria:
 
 ## JavaScript Testing
 
-
 The JS code has been tested throughout the development process, using console.log before the DOM manipulation was implemented.  The Arrays response on the page has been tested in all viewpoints once the button  <i> <button onclick="submitForm()" </i> has been submitted,  The script will select a name listed in the array at random for the Radio button that is selected Male/Female.  The button and DOM output has been tested on all viewpoints.
 
 ## Bugs fixed during Development
@@ -219,6 +227,7 @@ const randomIndexMD = Math.floor(Math.random() * femaleDogsArray.length);
 const randomDogsMD = femaleDogsArray[randomIndexMD];</i>
 
 ## Images on Website of poor quality
+
 - I resolved this issue of poor quality images by using the webp format converter https://convertio.co/jpg-webp/
 
 # 7. DEPLOYMENT
@@ -245,7 +254,9 @@ when the site is correctly deployed and displays the URL where the page can be v
 ## Code
 
 - The layout template was based on https://w3schools.com DIV layouts,  modified.
+
 - Font Awesome Links 4.7.0 where used for the social media icons
+
 - Balsamiq was used to create the Wireframe during the UI/UX design process.
 
 # 9. FUTURE FEATURES
