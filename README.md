@@ -60,7 +60,7 @@ in the future it is possible that this javascript page will be used in a further
 - USER STORY: As a User I want New generated names for dogs clearly displayed
 
 ## Future Iteration
-- USER STORY: As a user JS Pet Name Chooser to designed so it can be reused in the future
+- USER STORY: As a user JS Pet Name Chooser is designed so it can be reused in the future
 
 - USER STORY: As a user name suggestions for different sizes of dogs.
 
