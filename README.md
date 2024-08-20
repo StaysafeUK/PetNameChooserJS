@@ -14,22 +14,22 @@
 ## 2. SITE OWNER GOALS
 
 - The site owners goal is to have a clear concise site running Java Script that manipulates the DOM 
-to produce images of dog(s) and suggest a good name for a users pet.
+to produce images of dog(s) and suggest a good name for a users pet or pets.
 
 - The site owners goal is to provide new names and some images of dogs on all devices with the correct
-viewpoint, where the Wesite is clean and displays correctly.
+viewpoint, where the site is clean and displays correctly.
 
 # 3. FEATURES 
 
 ## INDEX PAGE
 ## Random name listing
-The Website has the ability to create dynamic names of dog for both sexes,  the functionality enables the 
+The site has the ability to create dynamic names of dog for both sexes,  the functionality enables the 
 user to select a new name if they do not accept the name they are given, as many times as the names are random
 from the male and female array.
 
 ## Images of correct sex of dog shown on the Wepage after selection
-The javascript code has DOM (Document Object Model) to manipulate the Webpage to produce male or female images
-of puppies when selecting from radio buttons.  The images are responsive and set at the correct sizes in WeP 
+The javascript code has DOM (Document Object Model) to manipulate the Web page to produce male or female images
+of puppies when selecting from radio buttons.  The images are responsive and set at the correct sizes in WebP 
 format.
 
 ## Responsive Design
@@ -58,7 +58,7 @@ as a future, and it is possible that this script will be used in a further proje
 
 ## Colour Scheme
 - I opted for a simplistic colour scheme of Grey/Green #373E3D White #FFFFFF Green RGB(0,128, 0) 
-and Blue RGB(0,255,0) for social media font aIsome icons.  White for text against Grey/Green 
+and Blue RGB(0,255,0) for social media font awsome icons.  White for text against Grey/Green 
 background DIVS and black text against white background.   The Button that I have used is a 
 success button on bootstrap 4.6.2.
 
@@ -73,8 +73,8 @@ to highlight my ability to manipulate the DOM.
 
 # 5. WIREFRAMES
 
-The diagrams below show the wireframe layout in We and Mobile formats,  these wireframe diagrams 
-show the Website upon loading the page,  if this view is required after using the Dog NAme chooser 
+The diagrams below show the wireframe layout in desktop and Mobile formats,  these wireframe diagrams 
+show the Website upon loading the page,  if this view is required after using the Dog Name chooser 
 either refresh the page or reload the Website. The design will stay close to these images produced 
 however there might be some modifications from the original wireframe design.
 
@@ -147,7 +147,7 @@ Testing has been completed on the following browsers:
 
 I tested my site agaist the following completed user stories
 
-1. User Story: "I want to be able to get a selection of names for a male or female dog."
+1. User Story: "I want to be able to get a selection of names for a male or female dog(s)."
 <div>
 <img src="documentation/images/UserStory1.png">
 </div>
@@ -162,7 +162,7 @@ example below of Male Dog selection selecting the name meeting the user story:
 <img src="documentation/images/UserStory2.png">
 </div>
 
-User Story compliant with web page see below showiung a picture of a female puppy:
+User Story compliant with web page see below showing a picture of a female puppy:
 <div>
 <img src="documentation/images/UserStory2Abbyweb.png">
 </div>
@@ -177,11 +177,15 @@ Below is an image of the user story meeting it's criteria:
 <img src="documentation/images/UserStory1Benjiweb.png">
 </div>
 
+## JavaScript Testing
+
+The JS code has been tested throughout the development process, using console.log before the DOM manipulation was implemented.  The Arrays response on the page has been tested in all viewpoints once the button  <i> <button onclick="submitForm()" </i> has been submitted,  The script will select a name listed in the array at random for the Radio button that is selected Male/Female.  The button and DOM output has been tested on all viewpoints.
+
 ## Bugs fixed during Development
 
 ## Radio buttons unaligned
 
-- Radio buttons when centered in the screen where staggered horizontally therefore I opted to have the radio buttons side by side which meets the critera of being easily managed to select the sex of the dog.
+- Radio buttons when centered in the screen where staggered vertically therefore I opted to have the radio buttons side by side which meets the critera of being easily managed to select the sex of the dog.
 
 ## Random names from the array
 
@@ -202,7 +206,7 @@ Site Deployment method
 
 - This site was deployed using Github pages in Settings, Pages 
 - The page is deployed from the Main branch, at the top of the pages it shows
-when the site is corretly deployed
+when the site is correctly deployed and displays the URL where the page can be viewed.
 - Any changes to the main branch will be deployed to the main project.
 
 # 8. SOURCES
